@@ -59,7 +59,7 @@ Most problems stem from skipping or misunderstanding important steps.
 
 5. Click Next, Next, Install, Finish
 
-6. Click [karel.jar](https://raw.githubusercontent.com/fredoverflow/karel/release/karel.jar) to download Karel<br>
+6. Click [karel.jar](https://classes-public-bucket.s3.amazonaws.com/java_101/zips/karel.jar) to download Karel<br>
 **If Karel fails to download**, continue with ⚠️ Troubleshooting *Windows*, or ⚠️ Troubleshooting *macOS*
 
 7. Open the `Downloads` folder and double-click `karel.jar` to start Karel<br>
@@ -133,9 +133,11 @@ Feel free to move `karel.jar` and `karel.sh` to the Desktop or any other folder 
 
 ### Autosave
 
-Your code is automatically saved to a new file each time you click the start button.
+~~Your code is automatically saved to a new file each time you click the start button.
 The save folder is named `karel`, and it is located in your home directory.
-The full path is displayed in the title bar.
+The full path is displayed in the title bar.~~
+
+Your code is saved in a directory named `karel` and that directory is located where your `karel.jar` file is. Hint Hint check your USB.
 
 ## Language reference
 

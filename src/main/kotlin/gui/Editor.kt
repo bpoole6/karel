@@ -21,12 +21,21 @@ class Editor : FreditorUI(Flexer, JavaIndenter.instance, 60, 1) {
     init {
         autosaver.loadOrDefault(
             """/*
+***IMPORTANT: DO NOT DELETE THESE COMMENTS. IF YOU ARE UNSURE WHAT COMMENTS ARE OR WHAT DELETES MEANS, PLEASE ASK THE INSTRUCTOR. :D
 F1 = moveForward();
 F2 = turnLeft();
 F3 = turnAround();
 F4 = turnRight();
 F5 = pickBeeper();
 F6 = dropBeeper();
+F7 = onBeeper();    Karel checks whether a beeper is on the square he currently stands on.
+F8 = beeperAhead();    Karel checks whether a beeper is on the square immediately in front of him.
+F9 = leftIsClear();    Karel checks whether no wall is between him and the square to his left.
+F10= frontIsClear();   Karel checks whether no wall is between him and the square in front of him.
+F11= rightIsClear();    Karel checks whether no wall is between him and the square to his right.
+
+Please see https://github.com/bpoole6/karel for more info
+
 */
 
 void karelsFirstProgram()
